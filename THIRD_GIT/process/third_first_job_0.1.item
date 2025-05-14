@@ -1,5 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" hide="false" name="Default"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="developer" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" internalId="_rX2QYDDVEfC_VYN5HpJKMA" name="load_data_excel_DecimalSeparator" prompt="load_data_excel_DecimalSeparator?" promptNeeded="false" repositoryContextId="_EP9rYDDUEfC_VYN5HpJKMA" type="id_String" value="'.'"/>
+    <contextParameter comment="" internalId="_rX2QYTDVEfC_VYN5HpJKMA" name="load_data_excel_Encoding" prompt="load_data_excel_Encoding?" promptNeeded="false" repositoryContextId="_EP9rYDDUEfC_VYN5HpJKMA" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" internalId="_rX2QYjDVEfC_VYN5HpJKMA" name="load_data_excel_File" prompt="load_data_excel_File?" promptNeeded="false" repositoryContextId="_EP9rYDDUEfC_VYN5HpJKMA" type="id_File" value="C:/Users/InfoWick/Desktop/usage purpose/Customers_data.xlsx"/>
+    <contextParameter comment="" internalId="_rX2QYzDVEfC_VYN5HpJKMA" name="load_data_excel_FirstColumn" prompt="load_data_excel_FirstColumn?" promptNeeded="false" repositoryContextId="_EP9rYDDUEfC_VYN5HpJKMA" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_rX2QZDDVEfC_VYN5HpJKMA" name="load_data_excel_Header" prompt="load_data_excel_Header?" promptNeeded="false" repositoryContextId="_EP9rYDDUEfC_VYN5HpJKMA" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_rX2QZTDVEfC_VYN5HpJKMA" name="load_data_excel_LastColumn" prompt="load_data_excel_LastColumn?" promptNeeded="false" repositoryContextId="_EP9rYDDUEfC_VYN5HpJKMA" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_rX2QZjDVEfC_VYN5HpJKMA" name="load_data_excel_ThousandSeparator" prompt="load_data_excel_ThousandSeparator?" promptNeeded="false" repositoryContextId="_EP9rYDDUEfC_VYN5HpJKMA" type="id_String" value="','"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="developer">
+    <contextParameter comment="" internalId="_rX2QZzDVEfC_VYN5HpJKMA" name="load_data_excel_DecimalSeparator" prompt="load_data_excel_DecimalSeparator?" promptNeeded="false" repositoryContextId="_EP9rYDDUEfC_VYN5HpJKMA" type="id_String" value="'.'"/>
+    <contextParameter comment="" internalId="_rX2QaDDVEfC_VYN5HpJKMA" name="load_data_excel_Encoding" prompt="load_data_excel_Encoding?" promptNeeded="false" repositoryContextId="_EP9rYDDUEfC_VYN5HpJKMA" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" internalId="_rX2QaTDVEfC_VYN5HpJKMA" name="load_data_excel_File" prompt="load_data_excel_File?" promptNeeded="false" repositoryContextId="_EP9rYDDUEfC_VYN5HpJKMA" type="id_File" value="C:/Users/InfoWick/Desktop/usage purpose/Customers_data.xlsx"/>
+    <contextParameter comment="" internalId="_rX2QajDVEfC_VYN5HpJKMA" name="load_data_excel_FirstColumn" prompt="load_data_excel_FirstColumn?" promptNeeded="false" repositoryContextId="_EP9rYDDUEfC_VYN5HpJKMA" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_rX2QazDVEfC_VYN5HpJKMA" name="load_data_excel_Header" prompt="load_data_excel_Header?" promptNeeded="false" repositoryContextId="_EP9rYDDUEfC_VYN5HpJKMA" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_rX2QbDDVEfC_VYN5HpJKMA" name="load_data_excel_LastColumn" prompt="load_data_excel_LastColumn?" promptNeeded="false" repositoryContextId="_EP9rYDDUEfC_VYN5HpJKMA" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_rX2QbTDVEfC_VYN5HpJKMA" name="load_data_excel_ThousandSeparator" prompt="load_data_excel_ThousandSeparator?" promptNeeded="false" repositoryContextId="_EP9rYDDUEfC_VYN5HpJKMA" type="id_String" value="','"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -98,7 +115,7 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
   </parameters>
-  <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="40">
+  <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
     <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="tFileInputExcel"/>
     <elementParameter field="TEXT" name="VERSION" show="false" value="0.102 (ALPHA)"/>
@@ -187,7 +204,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="440" posY="40">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -232,13 +249,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f0cae86a-5e8a-41bf-8b44-331a5689913c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rVwp8wI7XNbgeUangPlCc/NMshwx4dGJ3jecxsdH4Db9JrvLaA4XO1huy1xk2vVfLDhSje89lC63&#13;
-1h13xpB/Ww==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e31e619c-3e73-407d-ad79-46fd16c6adfe"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>28ntQaDZnIYQMZPWPDqtUpo7JRa4ntTb0mqYmRD2zmMKEFFdVtNgFG7GtIDni31T5YWLIX8zGecQ&#13;
-2ks0AI2WkQ==</DigestValue></Reference></SignedInfo><SignatureValue>MkL6oIClweBNipSFY5qNUcf4PxZt1sLSd04s4RBX/3+Ojg93vR+w8RX4dzQdNCb4UV1Y52y2Sd9r&#13;
-H8dkeZzE9hw9AAFS3262AtFeFcAdiSaiqI1ADFIRI7XxmUWEXGubL587izP7VbRSWYrqRGyBBuKs&#13;
-HsUxPiVjDRb0nJZyXgWXZIEFnjPbe2qkjbNF8ZtkRoz1jvm3FQncV7OOjJyzZI+sqBMXRhnhXEeF&#13;
-IIexImWMRAC3ccYavvzqy5DCTimprNEu+W2ZB9WfExqP5XDyBZbDN0X6X3tYErFCaKd21X833Q+x&#13;
-225PK9cEo0OGVU7Mfv5Mf7dqKeHPIWbr64nLQA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8963f3c3-1090-46c9-a854-c7c67cd84b8f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>D1IkExj0+VKeK2OBaig3UrRL3qqd5FdWvTVBrje3Aq8kZMOpsW6MV6WtSMka521pTQiuCVxEf1JK&#13;
+RvE5Wh6NGg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_32f90d5f-ad88-4ec3-8a29-a2bc6ae0079d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Ixdakru2UaXLqcYMq/S/doZ1YMj4iULUS/9ijaMbue5+H4ZWZVONSTdt2bRBHFE9XM1xT32uO/LS&#13;
+6y+a//bP/A==</DigestValue></Reference></SignedInfo><SignatureValue>c/e9O4O2Ke+1ewPJVnJ5/mG6M2Q/m9MWlEzK9rozuq6jDUCXki1GgzWmBSDadVfhTwvLY8ved6cD&#13;
+mNK6DP1DDU30wD9FJ5y61yviVGgES0RdG1EsRKxGmXMaxdfRp45W39Vk/HKr18gVrlH+r1zbIXeb&#13;
+24QonUbVtSzfu9aY+wFnrio0zYQqh+x2hQEhRBCRr7RcuX8Cx/Ye9Bfps+Uqywph954gaDnE5J23&#13;
+CFpfhDuTh31ab3jmNwUenRJTCCaJdc2pyP/O42ga1SG8AsQp28qKpdU35pJUBGqV1KL2EDP2mGat&#13;
+1m0tBCG8lLsojIcxyT2g1eajzlzi+/rvN5bWyQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -260,4 +277,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e31e619c-3e73-407d-ad79-46fd16c6adfe" Target="#_f0cae86a-5e8a-41bf-8b44-331a5689913c"><Timestamp>2025-05-14 14:02:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_32f90d5f-ad88-4ec3-8a29-a2bc6ae0079d" Target="#_8963f3c3-1090-46c9-a854-c7c67cd84b8f"><Timestamp>2025-05-14 15:11:14</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
