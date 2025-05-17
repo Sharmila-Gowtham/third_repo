@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_EQaXUDDUEfC_VYN5HpJKMA" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_EQaXUTDUEfC_VYN5HpJKMA" comment="" name="load_data_excel_DecimalSeparator" prompt="load_data_excel_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'"/>
+  <contextParameter xmi:id="_EQaXUjDUEfC_VYN5HpJKMA" comment="" name="load_data_excel_Header" prompt="load_data_excel_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_EQaXUzDUEfC_VYN5HpJKMA" comment="" name="load_data_excel_ThousandSeparator" prompt="load_data_excel_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','"/>
+  <contextParameter xmi:id="_EQaXVDDUEfC_VYN5HpJKMA" comment="" name="load_data_excel_FirstColumn" prompt="load_data_excel_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_EQaXVTDUEfC_VYN5HpJKMA" comment="" name="load_data_excel_Encoding" prompt="load_data_excel_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8"/>
+  <contextParameter xmi:id="_EQaXVjDUEfC_VYN5HpJKMA" comment="" name="load_data_excel_LastColumn" prompt="load_data_excel_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_EQaXVzDUEfC_VYN5HpJKMA" comment="" name="load_data_excel_File" prompt="load_data_excel_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/InfoWick/Desktop/usage purpose/Customers_data.xlsx"/>
+</talendfile:ContextType>

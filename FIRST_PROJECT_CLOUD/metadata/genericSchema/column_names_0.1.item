@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_TmbkYDGrEfCeyLuuzHFFGw" comment="connectionComment" label="connectionLabel" dataPackage="_TmbkYTGrEfCeyLuuzHFFGw"/>
+  <TalendMetadata:GenericPackage xmi:id="_TmbkYTGrEfCeyLuuzHFFGw" dataManager="_TmbkYDGrEfCeyLuuzHFFGw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_TmbkYjGrEfCeyLuuzHFFGw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TmbkYzGrEfCeyLuuzHFFGw" name="customer_id" id="1587" label="customer_id" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_TmdZkDGrEfCeyLuuzHFFGw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TmdZkTGrEfCeyLuuzHFFGw" name="first_name" id="1588" label="first_name" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_TmdZkjGrEfCeyLuuzHFFGw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TmdZkzGrEfCeyLuuzHFFGw" name="last_name" id="1589" label="last_name" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_TmdZlDGrEfCeyLuuzHFFGw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TmdZlTGrEfCeyLuuzHFFGw" name="email" id="1590" label="email" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_TmdZljGrEfCeyLuuzHFFGw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TmdZlzGrEfCeyLuuzHFFGw" name="signup_date" id="1591" label="signup_date" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_TmdZmDGrEfCeyLuuzHFFGw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
