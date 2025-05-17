@@ -1,0 +1,80 @@
+{
+  "itemId" : "_E3FYkDL_EfCArIXfoVqKlA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_EACmYDMAEfCArIXfoVqKlA",
+    "parameterList" : [ {
+      "id" : "_EAYkoTMAEfCArIXfoVqKlA",
+      "name" : "delimited_metadata_1_File"
+    }, {
+      "id" : "_EAYkojMAEfCArIXfoVqKlA",
+      "name" : "delimited_metadata_1_FieldSeparator"
+    }, {
+      "id" : "_EAYkozMAEfCArIXfoVqKlA",
+      "name" : "delimited_metadata_1_Encoding"
+    }, {
+      "id" : "_EAYkpDMAEfCArIXfoVqKlA",
+      "name" : "delimited_metadata_1_RowSeparator"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_lFuN0DMAEfCArIXfoVqKlA",
+    "parameterList" : [ {
+      "id" : "_lGJElTMAEfCArIXfoVqKlA",
+      "name" : "mysql_metadata1_Server"
+    }, {
+      "id" : "_lGJEljMAEfCArIXfoVqKlA",
+      "name" : "mysql_metadata1_Database"
+    }, {
+      "id" : "_lGJEkjMAEfCArIXfoVqKlA",
+      "name" : "mysql_metadata1_Password"
+    }, {
+      "id" : "_lGJEkTMAEfCArIXfoVqKlA",
+      "name" : "mysql_metadata1_Port"
+    }, {
+      "id" : "_lGJEkzMAEfCArIXfoVqKlA",
+      "name" : "mysql_metadata1_AdditionalParams"
+    }, {
+      "id" : "_lGJElDMAEfCArIXfoVqKlA",
+      "name" : "mysql_metadata1_Login"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_qeYF0DMGEfCArIXfoVqKlA",
+    "parameterList" : [ {
+      "id" : "_qeurJDMGEfCArIXfoVqKlA",
+      "name" : "mysql_metadata11_Login"
+    }, {
+      "id" : "_qeurIzMGEfCArIXfoVqKlA",
+      "name" : "mysql_metadata11_AdditionalParams"
+    }, {
+      "id" : "_qeurITMGEfCArIXfoVqKlA",
+      "name" : "mysql_metadata11_Port"
+    }, {
+      "id" : "_qeurJTMGEfCArIXfoVqKlA",
+      "name" : "mysql_metadata11_Server"
+    }, {
+      "id" : "_qeurJjMGEfCArIXfoVqKlA",
+      "name" : "mysql_metadata11_Database"
+    }, {
+      "id" : "_qeurIjMGEfCArIXfoVqKlA",
+      "name" : "mysql_metadata11_Password"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_fnISoDMKEfCArIXfoVqKlA",
+    "parameterList" : [ {
+      "id" : "_fne38TMKEfCArIXfoVqKlA",
+      "name" : "delimited_metadata_11_File"
+    }, {
+      "id" : "_fne39DMKEfCArIXfoVqKlA",
+      "name" : "delimited_metadata_11_RowSeparator"
+    }, {
+      "id" : "_fne38jMKEfCArIXfoVqKlA",
+      "name" : "delimited_metadata_11_FieldSeparator"
+    }, {
+      "id" : "_fne38zMKEfCArIXfoVqKlA",
+      "name" : "delimited_metadata_11_Encoding"
+    } ]
+  } ]
+}

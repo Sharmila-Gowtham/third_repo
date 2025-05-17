@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="__RcuUDMVEfCh4_ghbb-Kww" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="__RcuUTMVEfCh4_ghbb-Kww" comment="" name="mysql_metadata1_Login" prompt="mysql_metadata1_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root"/>
+  <contextParameter xmi:id="__RcuUjMVEfCh4_ghbb-Kww" comment="" name="mysql_metadata1_Port" prompt="mysql_metadata1_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306"/>
+  <contextParameter xmi:id="__RcuUzMVEfCh4_ghbb-Kww" comment="" name="mysql_metadata1_AdditionalParams" prompt="mysql_metadata1_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+  <contextParameter xmi:id="__RcuVDMVEfCh4_ghbb-Kww" comment="" name="mysql_metadata1_Database" prompt="mysql_metadata1_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="sakila"/>
+  <contextParameter xmi:id="__RcuVTMVEfCh4_ghbb-Kww" comment="" name="mysql_metadata1_Server" prompt="mysql_metadata1_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="__RcuVjMVEfCh4_ghbb-Kww" comment="" name="mysql_metadata1_Password" prompt="mysql_metadata1_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:WTRPCQkP5wptvNQ3SCj9GXBBDXzuyaWzVVseIu4yYNveUn16AcA="/>
+</talendfile:ContextType>

@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" name="mysql_metadata1_Port" prompt="mysql_metadata1_Port?" promptNeeded="false" repositoryContextId="_lFuN0DMAEfCArIXfoVqKlA" type="id_String" value="3306" internalId="_oNsrYDMAEfCArIXfoVqKlA"/>
-    <contextParameter comment="" name="mysql_metadata1_Password" prompt="mysql_metadata1_Password?" promptNeeded="false" repositoryContextId="_lFuN0DMAEfCArIXfoVqKlA" type="id_Password" value="enc:system.encryption.key.v1:SCP6na1gjBuMCKrJxsY10g7oeWsE/VY09gIkCINSPlRNOd6B9Tw=" internalId="_oNsrYTMAEfCArIXfoVqKlA"/>
-    <contextParameter comment="" name="mysql_metadata1_AdditionalParams" prompt="mysql_metadata1_AdditionalParams?" promptNeeded="false" repositoryContextId="_lFuN0DMAEfCArIXfoVqKlA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_oNtScDMAEfCArIXfoVqKlA"/>
-    <contextParameter comment="" name="mysql_metadata1_Login" prompt="mysql_metadata1_Login?" promptNeeded="false" repositoryContextId="_lFuN0DMAEfCArIXfoVqKlA" type="id_String" value="root" internalId="_oNtScTMAEfCArIXfoVqKlA"/>
-    <contextParameter comment="" name="mysql_metadata1_Server" prompt="mysql_metadata1_Server?" promptNeeded="false" repositoryContextId="_lFuN0DMAEfCArIXfoVqKlA" type="id_String" value="localhost" internalId="_oNtScjMAEfCArIXfoVqKlA"/>
-    <contextParameter comment="" name="mysql_metadata1_Database" prompt="mysql_metadata1_Database?" promptNeeded="false" repositoryContextId="_lFuN0DMAEfCArIXfoVqKlA" type="id_String" value="customers" internalId="_oNtSczMAEfCArIXfoVqKlA"/>
-    <contextParameter comment="" name="mysql_metadata11_Login" prompt="mysql_metadata11_Login?" promptNeeded="false" repositoryContextId="_qeYF0DMGEfCArIXfoVqKlA" type="id_String" value="root" internalId="_sEFfYDMGEfCArIXfoVqKlA"/>
-    <contextParameter comment="" name="mysql_metadata11_AdditionalParams" prompt="mysql_metadata11_AdditionalParams?" promptNeeded="false" repositoryContextId="_qeYF0DMGEfCArIXfoVqKlA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2" internalId="_sEFfYTMGEfCArIXfoVqKlA"/>
-    <contextParameter comment="" name="mysql_metadata11_Port" prompt="mysql_metadata11_Port?" promptNeeded="false" repositoryContextId="_qeYF0DMGEfCArIXfoVqKlA" type="id_String" value="3306" internalId="_sEFfYjMGEfCArIXfoVqKlA"/>
-    <contextParameter comment="" name="mysql_metadata11_Server" prompt="mysql_metadata11_Server?" promptNeeded="false" repositoryContextId="_qeYF0DMGEfCArIXfoVqKlA" type="id_String" value="localhost" internalId="_sEFfYzMGEfCArIXfoVqKlA"/>
-    <contextParameter comment="" name="mysql_metadata11_Database" prompt="mysql_metadata11_Database?" promptNeeded="false" repositoryContextId="_qeYF0DMGEfCArIXfoVqKlA" type="id_String" value="customers" internalId="_sEFfZDMGEfCArIXfoVqKlA"/>
-    <contextParameter comment="" name="mysql_metadata11_Password" prompt="mysql_metadata11_Password?" promptNeeded="false" repositoryContextId="_qeYF0DMGEfCArIXfoVqKlA" type="id_Password" value="enc:system.encryption.key.v1:z5oUxmLJDalwoNIbLtU/BC7ACSB2O2JmbaGrzL36um90zrw+gbc=" internalId="_sEFfZTMGEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="delimited_metadata_1_File" prompt="delimited_metadata_1_File?" promptNeeded="false" repositoryContextId="_EACmYDMAEfCArIXfoVqKlA" type="id_File" value="C:/Users/InfoWick/Desktop/Practice content/customers_data1.txt.txt" internalId="_QPkeUDMAEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="delimited_metadata_1_FieldSeparator" prompt="delimited_metadata_1_FieldSeparator?" promptNeeded="false" repositoryContextId="_EACmYDMAEfCArIXfoVqKlA" type="id_String" value="&quot;;&quot;" internalId="_QPkeUTMAEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="delimited_metadata_1_Encoding" prompt="delimited_metadata_1_Encoding?" promptNeeded="false" repositoryContextId="_EACmYDMAEfCArIXfoVqKlA" type="id_String" value="US-ASCII" internalId="_QPkeUjMAEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="delimited_metadata_1_RowSeparator" prompt="delimited_metadata_1_RowSeparator?" promptNeeded="false" repositoryContextId="_EACmYDMAEfCArIXfoVqKlA" type="id_String" value="&quot;\n&quot;" internalId="_QPkeUzMAEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="mysql_metadata1_Server" prompt="mysql_metadata1_Server?" promptNeeded="false" repositoryContextId="_lFuN0DMAEfCArIXfoVqKlA" type="id_String" value="localhost" internalId="_sojGEDMAEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="mysql_metadata1_Database" prompt="mysql_metadata1_Database?" promptNeeded="false" repositoryContextId="_lFuN0DMAEfCArIXfoVqKlA" type="id_String" value="customers" internalId="_sojGETMAEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="mysql_metadata1_Password" prompt="mysql_metadata1_Password?" promptNeeded="false" repositoryContextId="_lFuN0DMAEfCArIXfoVqKlA" type="id_Password" value="enc:system.encryption.key.v1:EhW0tNpbg9fg3WAKhr8Hw/vbewg+2b796GCPj4efNjYTfO5tnBo=" internalId="_sojGEjMAEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="mysql_metadata1_Port" prompt="mysql_metadata1_Port?" promptNeeded="false" repositoryContextId="_lFuN0DMAEfCArIXfoVqKlA" type="id_String" value="3306" internalId="_sojGEzMAEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="mysql_metadata1_AdditionalParams" prompt="mysql_metadata1_AdditionalParams?" promptNeeded="false" repositoryContextId="_lFuN0DMAEfCArIXfoVqKlA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_sojGFDMAEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="mysql_metadata1_Login" prompt="mysql_metadata1_Login?" promptNeeded="false" repositoryContextId="_lFuN0DMAEfCArIXfoVqKlA" type="id_String" value="root" internalId="_sojGFTMAEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="mysql_metadata11_Login" prompt="mysql_metadata11_Login?" promptNeeded="false" repositoryContextId="_qeYF0DMGEfCArIXfoVqKlA" type="id_String" value="root" internalId="_TgIzADMHEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="mysql_metadata11_AdditionalParams" prompt="mysql_metadata11_AdditionalParams?" promptNeeded="false" repositoryContextId="_qeYF0DMGEfCArIXfoVqKlA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2" internalId="_TgIzATMHEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="mysql_metadata11_Port" prompt="mysql_metadata11_Port?" promptNeeded="false" repositoryContextId="_qeYF0DMGEfCArIXfoVqKlA" type="id_String" value="3306" internalId="_TgIzAjMHEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="mysql_metadata11_Server" prompt="mysql_metadata11_Server?" promptNeeded="false" repositoryContextId="_qeYF0DMGEfCArIXfoVqKlA" type="id_String" value="localhost" internalId="_TgIzAzMHEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="mysql_metadata11_Database" prompt="mysql_metadata11_Database?" promptNeeded="false" repositoryContextId="_qeYF0DMGEfCArIXfoVqKlA" type="id_String" value="customers" internalId="_TgIzBDMHEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="mysql_metadata11_Password" prompt="mysql_metadata11_Password?" promptNeeded="false" repositoryContextId="_qeYF0DMGEfCArIXfoVqKlA" type="id_Password" value="enc:system.encryption.key.v1:2t0XskmHTyEskC6Cd2BYNaCU0dE5TK7JFhwBfIgqu8CfWUzb+mo=" internalId="_TgIzBTMHEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="delimited_metadata_11_File" prompt="delimited_metadata_11_File?" promptNeeded="false" repositoryContextId="_fnISoDMKEfCArIXfoVqKlA" type="id_File" value="C:/Users/InfoWick/Desktop/Practice content/customers_data1.txt.txt" internalId="_qWq-gDMKEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="delimited_metadata_11_RowSeparator" prompt="delimited_metadata_11_RowSeparator?" promptNeeded="false" repositoryContextId="_fnISoDMKEfCArIXfoVqKlA" type="id_String" value="&quot;\n&quot;" internalId="_qWq-gTMKEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="delimited_metadata_11_FieldSeparator" prompt="delimited_metadata_11_FieldSeparator?" promptNeeded="false" repositoryContextId="_fnISoDMKEfCArIXfoVqKlA" type="id_String" value="&quot;;&quot;" internalId="_qWq-gjMKEfCArIXfoVqKlA"/>
+    <contextParameter comment="" name="delimited_metadata_11_Encoding" prompt="delimited_metadata_11_Encoding?" promptNeeded="false" repositoryContextId="_fnISoDMKEfCArIXfoVqKlA" type="id_String" value="US-ASCII" internalId="_qWq-gzMKEfCArIXfoVqKlA"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -112,24 +120,38 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
   </parameters>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="40">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tFileInputDelimited" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="File/Input" show="false"/>
+    <elementParameter field="CHECK" name="START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tFileInputDelimited" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="E:\studio\configuration\lib\java" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_Nm7KcDLnEfCArIXfoVqKlA" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_Nm7KcDLnEfCArIXfoVqKlA - metadata" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/InfoWick/Desktop/Practice content/customers_data1.txt.txt&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.delimited_metadata_11_File"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.delimited_metadata_11_RowSeparator"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.delimited_metadata_11_FieldSeparator"/>
     <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="HEADER" value="0"/>
     <elementParameter field="TEXT" name="FOOTER" value="0"/>
     <elementParameter field="TEXT" name="LIMIT" value=""/>
     <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
     <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_Nm7KcDLnEfCArIXfoVqKlA - metadata" show="false"/>
     <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;E:/studio/workspace&quot;" show="false"/>
@@ -153,7 +175,7 @@
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;US-ASCII&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="context.delimited_metadata_11_Encoding"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
     <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
@@ -174,49 +196,47 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
-      <column comment="" key="false" length="5" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="first_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="last_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="email" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="signup_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="first_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="last_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="email" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="signup_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Date" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
-      <column comment="" key="false" length="5" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="first_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="last_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="email" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="signup_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="first_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="last_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="email" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="signup_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="360" posY="40">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="440" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_GMgtsDLvEfCArIXfoVqKlA" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
-    <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.mysql_metadata11_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.mysql_metadata11_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.mysql_metadata11_Database"/>
-    <elementParameter field="TEXT" name="USER" value="context.mysql_metadata11_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JwsWq43cfFr5A7MQ4d90rHjcRNy9dmfRLaPMysqoU5xgWZiUrpFaVELI38jye8VehYh5cJJP6HQwPWHvSA=="/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:t/TKlN2Z65fFEIsPe/42zxFJKj8+b3jJMGXNvult" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;employees&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.mysql_metadata11_AdditionalParams"/>
-    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="false"/>
-    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
     <elementParameter field="TABLE" name="ADD_COLS"/>
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
@@ -252,23 +272,53 @@
     <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
     <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tDBOutput_1">
-      <column comment="" key="false" length="5" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="first_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="last_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="email" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="signup_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="first_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="last_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="email" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="signup_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
-      <column comment="" key="false" length="5" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="first_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="last_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="email" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="15" name="signup_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="customer_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="first_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="last_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="email" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="signup_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
+  </node>
+  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tMysqlConnection" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/MySQL|ELT/Connections" show="false"/>
+    <elementParameter field="CHECK" name="START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tMysqlConnection" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="E:\studio\configuration\lib\java" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_GMgtsDLvEfCArIXfoVqKlA" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="TEXT" name="HOST" value="context.mysql_metadata11_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.mysql_metadata11_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.mysql_metadata11_Database"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.mysql_metadata11_AdditionalParams"/>
+    <elementParameter field="TEXT" name="USER" value="context.mysql_metadata11_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:h2FfRFL2BL5+2ArFlQE/gBHzAmSjL9DcRpHSzGIDCtl3/oAs6BjT1ISiB4rn7vhjy0rmu1rz6D8o+HHdoQ=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tDBOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -276,6 +326,11 @@
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
