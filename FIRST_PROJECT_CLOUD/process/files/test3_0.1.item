@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" name="mysql_metadata1_Login" prompt="mysql_metadata1_Login?" promptNeeded="false" repositoryContextId="__RGwEDMVEfCh4_ghbb-Kww" type="id_String" value="root" internalId="_UfmuIDMWEfCh4_ghbb-Kww"/>
-    <contextParameter comment="" name="mysql_metadata1_Port" prompt="mysql_metadata1_Port?" promptNeeded="false" repositoryContextId="__RGwEDMVEfCh4_ghbb-Kww" type="id_String" value="3306" internalId="_UfmuITMWEfCh4_ghbb-Kww"/>
-    <contextParameter comment="" name="mysql_metadata1_AdditionalParams" prompt="mysql_metadata1_AdditionalParams?" promptNeeded="false" repositoryContextId="__RGwEDMVEfCh4_ghbb-Kww" type="id_String" value="" internalId="_UfmuIjMWEfCh4_ghbb-Kww"/>
-    <contextParameter comment="" name="mysql_metadata1_Database" prompt="mysql_metadata1_Database?" promptNeeded="false" repositoryContextId="__RGwEDMVEfCh4_ghbb-Kww" type="id_String" value="sakila" internalId="_UfmuIzMWEfCh4_ghbb-Kww"/>
-    <contextParameter comment="" name="mysql_metadata1_Server" prompt="mysql_metadata1_Server?" promptNeeded="false" repositoryContextId="__RGwEDMVEfCh4_ghbb-Kww" type="id_String" value="localhost" internalId="_UfmuJDMWEfCh4_ghbb-Kww"/>
-    <contextParameter comment="" name="mysql_metadata1_Password" prompt="mysql_metadata1_Password?" promptNeeded="false" repositoryContextId="__RGwEDMVEfCh4_ghbb-Kww" type="id_Password" value="enc:system.encryption.key.v1:xxMIR/MXHfbIY7VSLGhu5jkMWUUDQniZbgWB/H+A3+s7lO64zgw=" internalId="_UfmuJTMWEfCh4_ghbb-Kww"/>
+    <contextParameter comment="" name="mysql_metadata1_Login" prompt="mysql_metadata1_Login?" promptNeeded="false" repositoryContextId="__RGwEDMVEfCh4_ghbb-Kww" type="id_String" value="root" internalId="_6gfj8DMZEfCh4_ghbb-Kww"/>
+    <contextParameter comment="" name="mysql_metadata1_Port" prompt="mysql_metadata1_Port?" promptNeeded="false" repositoryContextId="__RGwEDMVEfCh4_ghbb-Kww" type="id_String" value="3306" internalId="_6gfj8TMZEfCh4_ghbb-Kww"/>
+    <contextParameter comment="" name="mysql_metadata1_AdditionalParams" prompt="mysql_metadata1_AdditionalParams?" promptNeeded="false" repositoryContextId="__RGwEDMVEfCh4_ghbb-Kww" type="id_String" value="" internalId="_6gfj8jMZEfCh4_ghbb-Kww"/>
+    <contextParameter comment="" name="mysql_metadata1_Database" prompt="mysql_metadata1_Database?" promptNeeded="false" repositoryContextId="__RGwEDMVEfCh4_ghbb-Kww" type="id_String" value="sakila" internalId="_6gfj8zMZEfCh4_ghbb-Kww"/>
+    <contextParameter comment="" name="mysql_metadata1_Server" prompt="mysql_metadata1_Server?" promptNeeded="false" repositoryContextId="__RGwEDMVEfCh4_ghbb-Kww" type="id_String" value="localhost" internalId="_6gfj9DMZEfCh4_ghbb-Kww"/>
+    <contextParameter comment="" name="mysql_metadata1_Password" prompt="mysql_metadata1_Password?" promptNeeded="false" repositoryContextId="__RGwEDMVEfCh4_ghbb-Kww" type="id_Password" value="enc:system.encryption.key.v1:qZDzkmhCuzBMnajY7SaOk7q/RrvuxsUrQhIq1m7M58PBBMb1EAQ=" internalId="_6gfj9TMZEfCh4_ghbb-Kww"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -106,6 +106,37 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
   </parameters>
+  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tMysqlConnection" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/MySQL|ELT/Connections" show="false"/>
+    <elementParameter field="CHECK" name="START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tMysqlConnection" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="E:\studio\configuration\lib\java" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_FcoQcDMREfCh4_ghbb-Kww" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="TEXT" name="HOST" value="context.mysql_metadata1_Server"/>
+    <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.mysql_metadata1_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.mysql_metadata1_Database"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.mysql_metadata1_AdditionalParams"/>
+    <elementParameter field="TEXT" name="USER" value="context.mysql_metadata1_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PL4mdD21W5zlutMMebgvYNkGa3SGXn2a8uoNGr9530OYWvP16WU2rvmk7KJ3AagkP7AAmTjDegMduMb9"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+  </node>
   <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="240" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
     <elementParameter field="TEXT" name="COMPONENT_NAME" value="tMysqlInput" show="false"/>
@@ -126,7 +157,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nbqpaIBxrfE0XCUGuf9nnbMr6ravTet6ir4FkryD" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:O9JFc0BrxkGsvZ1HFmhvs989K/E7dDMSoZbj+gJ1" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_FcoQcDMREfCh4_ghbb-Kww - actor" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;actor&quot;"/>
@@ -196,7 +227,7 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="actor" name="tLogRow_1">
-      <column comment="" key="true" length="5" name="actor_id" nullable="false" pattern="" precision="0" sourceType="SMALLINT UNSIGNED" type="id_Integer" usefulColumn="true">
+      <column comment="" key="true" length="5" name="actor_id" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="45" name="first_name" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -210,51 +241,20 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="40">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tMysqlConnection" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/MySQL|ELT/Connections" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tMysqlConnection" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="E:\studio\configuration\lib\java" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_FcoQcDMREfCh4_ghbb-Kww" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
-    <elementParameter field="TEXT" name="HOST" value="context.mysql_metadata1_Server"/>
-    <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="context.mysql_metadata1_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.mysql_metadata1_Database"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.mysql_metadata1_AdditionalParams"/>
-    <elementParameter field="TEXT" name="USER" value="context.mysql_metadata1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gVkWWSQ9RulcIuetlrSv/ftOuM5D8/cQLCdB7KSpIu5a2FzseHXpFEMv0E9y/clUFJ0XfG1Azy8to2Go"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
-  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDBInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDBInput_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
-  </connection>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
