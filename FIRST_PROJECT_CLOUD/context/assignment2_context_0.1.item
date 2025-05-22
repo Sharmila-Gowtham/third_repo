@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_4a6wQDUWEfCHE9xKw1W6xQ" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_4a6wQTUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_Encoding" prompt="assignment2_orders_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4a7XUDUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_DecimalSeparator" prompt="assignment2_orders_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'"/>
+    <contextParameter xmi:id="_4a7XUTUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_File" prompt="assignment2_orders_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/InfoWick/Desktop/Practice content/orders.xlsx"/>
+    <contextParameter xmi:id="_4a7XUjUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_FirstColumn" prompt="assignment2_orders_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4a7XUzUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_ThousandSeparator" prompt="assignment2_orders_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','"/>
+    <contextParameter xmi:id="_4a7XVDUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_Header" prompt="assignment2_orders_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4a7XVTUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_LastColumn" prompt="assignment2_orders_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_4a7XVjUWEfCHE9xKw1W6xQ" confirmationNeeded="false" hide="false" name="dev">
+    <contextParameter xmi:id="_4a7XVzUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_Encoding" prompt="assignment2_orders_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4a7XWDUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_DecimalSeparator" prompt="assignment2_orders_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'"/>
+    <contextParameter xmi:id="_4a7XWTUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_File" prompt="assignment2_orders_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/InfoWick/Desktop/Practice content/orders.xlsx"/>
+    <contextParameter xmi:id="_4a7XWjUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_FirstColumn" prompt="assignment2_orders_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4a7XWzUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_ThousandSeparator" prompt="assignment2_orders_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','"/>
+    <contextParameter xmi:id="_4a7XXDUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_Header" prompt="assignment2_orders_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4a7XXTUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_LastColumn" prompt="assignment2_orders_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_4a7XXjUWEfCHE9xKw1W6xQ" confirmationNeeded="false" hide="false" name="prod">
+    <contextParameter xmi:id="_4a7XXzUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_Encoding" prompt="assignment2_orders_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8"/>
+    <contextParameter xmi:id="_4a7XYDUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_DecimalSeparator" prompt="assignment2_orders_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'"/>
+    <contextParameter xmi:id="_4a7XYTUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_File" prompt="assignment2_orders_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/InfoWick/Desktop/Practice content/orders.xlsx"/>
+    <contextParameter xmi:id="_4a7XYjUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_FirstColumn" prompt="assignment2_orders_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4a7XYzUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_ThousandSeparator" prompt="assignment2_orders_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','"/>
+    <contextParameter xmi:id="_4a7XZDUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_Header" prompt="assignment2_orders_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+    <contextParameter xmi:id="_4a7XZTUWEfCHE9xKw1W6xQ" comment="" name="assignment2_orders_LastColumn" prompt="assignment2_orders_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

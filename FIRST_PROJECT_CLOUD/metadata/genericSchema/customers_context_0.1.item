@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_Gjny8DcdEfCMi40elNanHg" comment="connectionComment" label="connectionLabel" dataPackage="_Gjny8TcdEfCMi40elNanHg"/>
+  <TalendMetadata:GenericPackage xmi:id="_Gjny8TcdEfCMi40elNanHg" dataManager="_Gjny8DcdEfCMi40elNanHg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Gjny8jcdEfCMi40elNanHg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gjny8zcdEfCMi40elNanHg" name="CustomerID" id="343" label="CustomerID" length="-1" precision="-1" sourceType="" talendType="id_Integer" key="true">
+        <initialValue xmi:id="_GjoaADcdEfCMi40elNanHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GjoaATcdEfCMi40elNanHg" name="FirstName" id="344" label="FirstName" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_GjoaAjcdEfCMi40elNanHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GjoaAzcdEfCMi40elNanHg" name="LastName" id="345" label="LastName" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_GjoaBDcdEfCMi40elNanHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GjoaBTcdEfCMi40elNanHg" name="Email" id="346" label="Email" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_GjoaBjcdEfCMi40elNanHg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GjoaBzcdEfCMi40elNanHg" name="Country" id="347" label="Country" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_GjoaCDcdEfCMi40elNanHg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

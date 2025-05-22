@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_sg_fcDUXEfCHE9xKw1W6xQ" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_sg_fcTUXEfCHE9xKw1W6xQ" comment="" name="Customer_ID" prompt="Customer_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_sg_fcjUXEfCHE9xKw1W6xQ" comment="" name="Customer_Name" prompt="Customer_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_sg_fczUXEfCHE9xKw1W6xQ" comment="" name="Email" prompt="Email?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_sg_fdDUXEfCHE9xKw1W6xQ" comment="" name="Country" prompt="Country?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_sg_fdTUXEfCHE9xKw1W6xQ" comment="" name="Order_ID" prompt="Order_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_sg_fdjUXEfCHE9xKw1W6xQ" comment="" name="Order_Date" prompt="Order_Date?" promptNeeded="false" repositoryContextId="built-in" type="id_Date" value=""/>
+    <contextParameter xmi:id="_sg_fdzUXEfCHE9xKw1W6xQ" comment="" name="Product" prompt="Product?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_sg_feDUXEfCHE9xKw1W6xQ" comment="" name="Quantity" prompt="Quantity?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_sg_feTUXEfCHE9xKw1W6xQ" comment="" name="Price" prompt="Price?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_sg_fejUXEfCHE9xKw1W6xQ" confirmationNeeded="false" hide="false" name="dev">
+    <contextParameter xmi:id="_sg_fezUXEfCHE9xKw1W6xQ" comment="" name="Customer_ID" prompt="Customer_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_sg_ffDUXEfCHE9xKw1W6xQ" comment="" name="Customer_Name" prompt="Customer_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_sg_ffTUXEfCHE9xKw1W6xQ" comment="" name="Email" prompt="Email?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_sg_ffjUXEfCHE9xKw1W6xQ" comment="" name="Country" prompt="Country?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_sg_ffzUXEfCHE9xKw1W6xQ" comment="" name="Order_ID" prompt="Order_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_sg_fgDUXEfCHE9xKw1W6xQ" comment="" name="Order_Date" prompt="Order_Date?" promptNeeded="false" repositoryContextId="built-in" type="id_Date" value=""/>
+    <contextParameter xmi:id="_sg_fgTUXEfCHE9xKw1W6xQ" comment="" name="Product" prompt="Product?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_sg_fgjUXEfCHE9xKw1W6xQ" comment="" name="Quantity" prompt="Quantity?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_sg_fgzUXEfCHE9xKw1W6xQ" comment="" name="Price" prompt="Price?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_sg_fhDUXEfCHE9xKw1W6xQ" confirmationNeeded="false" hide="false" name="prod">
+    <contextParameter xmi:id="_sg_fhTUXEfCHE9xKw1W6xQ" comment="" name="Customer_ID" prompt="Customer_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_sg_fhjUXEfCHE9xKw1W6xQ" comment="" name="Customer_Name" prompt="Customer_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_sg_fhzUXEfCHE9xKw1W6xQ" comment="" name="Email" prompt="Email?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_sg_fiDUXEfCHE9xKw1W6xQ" comment="" name="Country" prompt="Country?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_sg_fiTUXEfCHE9xKw1W6xQ" comment="" name="Order_ID" prompt="Order_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_sg_fijUXEfCHE9xKw1W6xQ" comment="" name="Order_Date" prompt="Order_Date?" promptNeeded="false" repositoryContextId="built-in" type="id_Date" value=""/>
+    <contextParameter xmi:id="_sg_fizUXEfCHE9xKw1W6xQ" comment="" name="Product" prompt="Product?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_sg_fjDUXEfCHE9xKw1W6xQ" comment="" name="Quantity" prompt="Quantity?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter xmi:id="_sg_fjTUXEfCHE9xKw1W6xQ" comment="" name="Price" prompt="Price?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>
