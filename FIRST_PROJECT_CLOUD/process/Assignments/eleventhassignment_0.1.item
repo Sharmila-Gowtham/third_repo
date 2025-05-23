@@ -904,7 +904,7 @@
     <elementParameter field="FILE" name="PRIVATE_KEY" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="BUCKET" value="&quot;bucketfirst-23&quot;"/>
     <elementParameter field="TEXT" name="KEY" value="&quot;sharmi/output/Customers_orders_data1&quot;"/>
-    <elementParameter field="FILE" name="FILE" value="&quot;C:/Users/InfoWick/Desktop/source_files/outputfiles/Cusorddata1.txt&quot;"/>
+    <elementParameter field="FILE" name="FILE" value="&quot;C:/Users/InfoWick/Desktop/source_files/outputfiles/Custorddata1.txt&quot;"/>
     <elementParameter field="CHECK" name="ENABLE_SERVER_SIDE_ENCRYPTION" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_KMS" value="false" show="false"/>
     <elementParameter field="TEXT" name="KMSID" value="&quot;&quot;" show="false"/>
